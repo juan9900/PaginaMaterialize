@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  fontSize: */
+.xs {
+  font-size: 0.75rem;
+}
+.sm {
+  font-size: 0.875rem;
+}
+.base {
+  font-size: 1rem;
+}
+.lg {
+  font-size: 1.125rem;
+}
+.xl {
+  font-size: 1.25rem;
+}
+.x2l {
+  font-size: 1.5rem;
+}
+.x3l {
+  font-size: 1.875rem;
+}
+.x4l {
+  font-size: 2.25rem;
+}
+.x5l {
+  font-size: 3rem;
+}
+.x6l {
+  font-size: 4em;
+}
+.fs1 {
+  font-size: 1vw;
+}
+.fs2 {
+  font-size: 1.4vw;
+}
+.fs3 {
+  font-size: 1.6vw;
+}
+.fs4 {
+  font-size: 1.8vw;
+}
+.fs5 {
+  font-size: 2vw;
+}
+.fs6 {
+  font-size: 2.2vw;
+}
+.fs7 {
+  font-size: 2.4vw;
+}
+.fs8 {
+  font-size: 2.6vw;
+}
+
+.inicio {
+  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/setup1.jpg);
+  background-attachment: scroll, scroll;
+  background-position: bottom;
+  background-size: cover;
+}
+
+section {
+  margin-bottom: 18px;
+}
+
+.row {
+  margin-bottom: 90px;
+}
+
+.img-teclado {
+  width: 100%;
+}
+
+.col a {
+  margin-top: 14px;
+}
+.card img {
+  width: 150px;
+}
+
+.card a {
+  margin-bottom: 15px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+footer {
+  height: auto;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+footer ul {
+  margin-bottom: 20px;
+}
+
+.footer-links a:link,
+.footer-links a:visited {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+footer p {
+  display: block;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-links a:link,
+  .footer-links a:visited {
+    font-size: 14px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
